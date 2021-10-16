@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <title>Login </title>
+</head>
+<body>
+<h1><u>LOGIN<u></h1>
+<form action="" method="post">
+<div id="body">
+ <input type="text" placeholder="username" name="username" id="usr"><br>
+ <br>
+ <input type="password" id="pwd" placeholder="password" name="password"><br> 
+<script>
+function check()
+{
+var user=document.getElementaryById("usr");
+var pwd=document.getElementaryById("pwd");
+if(user=" "||password=" ")
+{
+alert("filds must fill");
+}
+else if(user="ab" && pwd="ab")
+ {
+alert("all fields are filled");
+}  
+else
+{
+alert("invalid credentials");
+}  
+}
+</script>
+<br>
+ <button style="background-color:skyblue;color:white;padding:10px;border-radius:10px" onclick="check()" name="save" >LOGIN</button><br>
+</form>
+</a>
+ </body>
+</html>
+      
